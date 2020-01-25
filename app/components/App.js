@@ -5,6 +5,7 @@ import "./style.less";
 import Dark from "./Dark";
 import Light from "./Light";
 import Midnight from "./Midnight";
+import Blinc from "./Blinc";
 
 import Modal from "./Basic/modal";
 
