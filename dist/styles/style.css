@@ -17734,9 +17734,10 @@ body.blincTheme .ant-table-thead>tr>th {
 	color: #fff;
 	font-weight: 500;
 	text-align: left;
-	background: #00a9e0;
+	background: #E4E5EB;
 	border-bottom: 1px solid #eee;
-	transition: background .3s ease
+	transition: background .3s ease;
+	height:40px;
 }
 
 body.blincTheme .ant-table-thead>tr>th[colspan] {
