@@ -17738,9 +17738,6 @@ body.blincTheme .ant-table-thead>tr>th {
 	border-bottom: 1px solid #eee;
 	transition: background .3s ease;
 }
-body.blincTheme .ant-table-thead>tr {
-	height:40px;
-}
 
 body.blincTheme .ant-table-thead>tr>th[colspan] {
 	text-align: center
@@ -17919,7 +17916,8 @@ body.blincTheme .ant-table-tbody>tr>td {
 
 body.blincTheme .ant-table-tbody>tr,
 body.blincTheme .ant-table-thead>tr {
-	transition: all .3s, height 0s
+	transition: all .3s, height 0s;
+	height:40px !important;
 }
 
 body.blincTheme .ant-table-tbody>tr.ant-table-row-hover:not(.ant-table-expanded-row):not(.ant-table-row-selected)>td,
