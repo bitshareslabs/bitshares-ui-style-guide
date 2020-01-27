@@ -18009,8 +18009,10 @@ body.blincTheme .ant-table-tbody>tr>td.ant-table-column-sort {
 
 body.blincTheme .ant-table-tbody>tr>td,
 body.blincTheme .ant-table-thead>tr>th {
-	padding: 6px 16px;
-	overflow-wrap: break-word
+	padding: 0 16px;
+	overflow-wrap: break-word;
+	max-height: 40px !important;
+	height: 40px !important;
 }
 
 body.blincTheme .ant-table-expand-icon-th,
